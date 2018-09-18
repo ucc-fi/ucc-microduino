@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_01x09_Female
+D Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP usb-PCB
+D USB Type A connector
+K connector USB
+F  ~
+$ENDCMP
+#
+#End Doc Library
