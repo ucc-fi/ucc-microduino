@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"D3,D2";"D_SOD-123";2;"3.6V 1/2mW";;;
+2;"D4";"LedSmd1221SYGCS530XXTR8";1;"Led Green";;;
+3;"J2";"PinSocket_1x10_P2.54mm_Vertical";1;"Header";;;
+4;"D1";"D_MELF_Handsoldering";1;"PMLL4148L";;;
+5;"U1";"SOIJ-8_5.3x5.3mm_P1.27mm";1;"ATtiny85-20SU";;;
+6;"R5,R4";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";2;"330Ω 5% 1/8W";;;
+7;"R3,R2";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";2;"68Ω 5% 1/8W";;;
+8;"R1";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"1.5KΩ 5% 1/8W";;;
+9;"C1";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"0.1u";;;
+10;"D5";"LedSmd1221SYGCS530XXTR8";1;"Led Red";;;
+11;"J1";"USB_A_UCC";1;"USB_PCB_A";;;

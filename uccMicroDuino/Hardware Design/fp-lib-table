@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name usbEmbedded)(type KiCad)(uri ${KIPRJMOD}/usbEmbedded.pretty)(options "")(descr ""))
+  (lib (name "Hardware Design")(type KiCad)(uri "C:/Users/lover/Desktop/uccMicroDuinoTemporal/Hardware Design.pretty")(options "")(descr ""))
+  (lib (name ledSmdLateral)(type KiCad)(uri ${KIPRJMOD}/ledSmdLateral.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name usbEmbedded)(type Legacy)(uri ${KIPRJMOD}/usbEmbedded.lib)(options "")(descr ""))
+  (lib (name New_Library)(type Legacy)(uri "C:/Users/lover/Desktop/uccMicroDuinoTemporal/Hardware Design/New_Library.lib")(options "")(descr ""))
+)

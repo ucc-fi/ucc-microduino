@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\lover\Desktop\uccMicroDuinoTemporal\Hardware Design\uccMicroDuinoTest.sch</source>
+    <date>9/22/2018 7:43:39 PM</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>uccMicroDuinoTest.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ATtiny85-20SU</value>
+      <footprint>Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/product-detail/en/microchip-technology/ATTINY85-20SUR/ATTINY85-20SURTR-ND/2357441</field>
+        <field name="Extra Data">~</field>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Package">8-SOIC</field>
+        <field name="Price U$S">2.63009</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny85-20SU" description="20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIJ-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9D9CB3</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>Led Green</value>
+      <footprint>uccMicroDuino:LedSmd1221SYGCS530XXTR8</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/12-21SYGC,S530-E2,TR8.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/product-detail/en/everlight-electronics-co-ltd/12-21SYGC-S530-E2-TR8/1080-1451-2-ND/2691442</field>
+        <field name="Extra Data">12-21SYGC/S530-E2/TR8</field>
+        <field name="Manufacturer">Everlight Electronics Co</field>
+        <field name="Package">Chip Led Montaje Lateral</field>
+        <field name="Price U$S">0.123</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9D9F26</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>3.6V 1/2mW</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMSZ2V4T1-D.PDF</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/product-detail/en/on-semiconductor/MMSZ3V6T1G/MMSZ3V6T1GOSDKR-ND/2705553</field>
+        <field name="Extra Data">MMSZ3V6T1G</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Package"> SOD123</field>
+        <field name="Price U$S">0.07344</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DA27C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1.5KΩ 5% 1/8W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/DMM0000COL9.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv2085=u1.5+kOhms&amp;sf=1&amp;FV=fffc000a%2C142c040d%2Cffe00034%2C80002&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25=1&amp;pageSize=25</field>
+        <field name="Extra Data">~</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Package">SMD 0805</field>
+        <field name="Price U$S">0.00477</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DA46A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>PMLL4148L</value>
+      <footprint>Diode_SMD:D_MELF_Handsoldering</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMLL4148L_PMLL4448.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMLL4148L115/1727-2967-2-ND/763353</field>
+        <field name="Extra Data">Switching Diode</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Package">MINI-MELF</field>
+        <field name="Price U$S">0.02606</field>
+      </fields>
+      <libsource lib="pspice" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9DA5AD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Pcb USB Type A</value>
+      <footprint>uccMicroDuino:usb-PCB</footprint>
+      <datasheet>https://www.pjrc.com/teensy/beta/usb20.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">~</field>
+        <field name="Extra Data">~</field>
+        <field name="Manufacturer">Pcb Embedded</field>
+        <field name="Package">pcb Embedded</field>
+        <field name="Price U$S">~</field>
+      </fields>
+      <libsource lib="" part="usb-PCB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA191F4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1004_Z5U_SMD.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/product-detail/en/kemet/C0805C104M5UACTU/399-1176-2-ND/411175</field>
+        <field name="Extra Data">100NFX50V Z5U 20% CER.MULT. </field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Package">SMD 0805</field>
+        <field name="Price U$S">0.15</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA2911B</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>Led Red</value>
+      <footprint>uccMicroDuino:LedSmd1221SYGCS530XXTR8</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/12-21SURC,S530-A3,TR8.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/products/en?keywords=12-21SURC</field>
+        <field name="Extra Data">12-21SURC/S530-A2/TR8</field>
+        <field name="Manufacturer">Everlight Electronics Co</field>
+        <field name="Package">Chip Led Montaje Lateral</field>
+        <field name="Price U$S">0.123</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA70285</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>68Ω 5% 1/8W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/DMM0000COL9.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv2085=u68+Ohms&amp;sf=1&amp;FV=fffc000a%2C142c040d%2Cffe00034%2C80002&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</field>
+        <field name="Extra Data">~</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Package">SMD 0805</field>
+        <field name="Price U$S">0.00477</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA71812</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>68Ω 5% 1/8W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/DMM0000COL9.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv2085=u68+Ohms&amp;sf=1&amp;FV=fffc000a%2C142c040d%2Cffe00034%2C80002&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</field>
+        <field name="Extra Data">~</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Package">SMD 0805</field>
+        <field name="Price U$S">0.00477</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA719F8</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330Ω 5% 1/8W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/DMM0000COL9.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv2085=u68+Ohms&amp;sf=1&amp;FV=fffc000a%2C142c040d%2Cffe00034%2C80002&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</field>
+        <field name="Extra Data">~</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Package">SMD 0805</field>
+        <field name="Price U$S">0.00477</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA72428</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>330Ω 5% 1/8W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/DMM0000COL9.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv2085=u68+Ohms&amp;sf=1&amp;FV=fffc000a%2C142c040d%2Cffe00034%2C80002&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</field>
+        <field name="Extra Data">~</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Package">SMD 0805</field>
+        <field name="Price U$S">0.00477</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA72D9B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>3.6V 1/2mW</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMSZ2V4T1-D.PDF</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/product-detail/en/on-semiconductor/MMSZ3V6T1G/MMSZ3V6T1GOSDKR-ND/2705553</field>
+        <field name="Extra Data">MMSZ3V6T1G</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Package"> SOD123</field>
+        <field name="Price U$S">0.07344</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA736C8</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Header</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>https://s3.amazonaws.com/catalogspreads-pdf/PAGE114-115%20.100%20FEMALE%20HDR.pdf</datasheet>
+      <fields>
+        <field name="Comments">~</field>
+        <field name="DigiKey Web">https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPPC101LFBN-RC/S7043-ND/810182</field>
+        <field name="Extra Data">~</field>
+        <field name="Manufacturer">Sullins</field>
+        <field name="Package">THT Vertical Straigth Socket</field>
+        <field name="Price U$S">0.20488</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA73E1D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="personalLibraries:usb-PCB">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">personalLibraries:usb-PCB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Female">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>LED generic</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny25V-10SU">
+      <aliases>
+        <alias>ATtiny25-20SU</alias>
+        <alias>ATtiny45V-10SU</alias>
+        <alias>ATtiny45-20SU</alias>
+        <alias>ATtiny85V-10SU</alias>
+        <alias>ATtiny85-20SU</alias>
+      </aliases>
+      <description>10MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, SOIJ-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</docs>
+      <footprints>
+        <fp>SOIJ*5.3x5.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny25V-10SU</field>
+        <field name="Footprint">Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RESET~/PB5" type="BiDi"/>
+        <pin num="2" name="XTAL1/PB3" type="BiDi"/>
+        <pin num="3" name="XTAL2/PB4" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="AREF/PB0" type="BiDi"/>
+        <pin num="6" name="PB1" type="BiDi"/>
+        <pin num="7" name="PB2" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="DIODE">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATtiny.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="R4" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad6)">
+      <node ref="U1" pin="7"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J2-Pad4)">
+      <node ref="U1" pin="5"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad10)">
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="8" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D2-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad7)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(D3-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="15" name="Net-(D4-Pad2)">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="6"/>
+      <node ref="D4" pin="2"/>
+    </net>
+  </nets>
+</export>

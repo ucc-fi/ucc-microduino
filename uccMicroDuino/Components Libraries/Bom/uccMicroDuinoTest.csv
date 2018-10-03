@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"0.1u";;;
+2;"J2";"PinSocket_1x09_P1.00mm_Vertical";1;"Conn_01x09_Female";;;
+3;"D3,D2";"D_SOD-123";2;"3,6v";;;
+4;"D1";"D_SOD-123";1;"DIODE";;;
+5;"U1";"SOIJ-8_5.3x5.3mm_P1.27mm";1;"ATtiny85-20SU";;;
+6;"R5,R4";"R_0805_2012Metric";2;"330";;;
+7;"R3,R2";"R_0805_2012Metric";2;"68";;;
+8;"R1";"R_0805_2012Metric";1;"1K5";;;
+9;"D4";"LedSmd1221SYGCS530XXTR8";1;"LED_GREEN";;;
+10;"D5";"LedSmd1221SYGCS530XXTR8";1;"LED_RED";;;
+11;"J1";"usb-PCB";1;"usb-PCB";;;
